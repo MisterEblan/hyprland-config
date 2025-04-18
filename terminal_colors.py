@@ -1,0 +1,7 @@
+RED:    str = "\033[31m"
+GREEN:  str = "\033[32m"
+YELLOW: str = "\033[33m"
+CYAN:   str = "\033[36m"
+BOLD:   str = "\033[1m"
+ITALIC: str = "\033[3m"
+RESET:  str = "\033[0m"
