@@ -1,6 +1,7 @@
 require("config.lazy")
 
 require("tokyonight")
+require("dashboard")
 
 -- require("catppuccin").setup({
 --     flavour = "Macchiato", -- latte, frappe, macchiato, mocha
@@ -68,7 +69,8 @@ vim.cmd.set("tabstop=4")
 vim.cmd.set("shiftwidth=4")
 
 -- Установка буфера для копирования
-vim.cmd.set("clipboard=unnamed")
+vim.cmd.set("clipboard^=unnamed")
+vim.cmd.set("clipboard^=unnamedplus")
 
 vim.g.mapleader = " "
 -- Привязка клавиши для сохранения файла
