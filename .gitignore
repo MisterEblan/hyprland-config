@@ -2,3 +2,4 @@ __pycache__/
 token
 replace_configs.py
 install_script.py
+backup_files.py
