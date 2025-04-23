@@ -1,0 +1,1 @@
+/home/mreblan/rices/catppuccin/nvim/theme.lua
