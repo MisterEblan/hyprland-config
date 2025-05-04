@@ -1,6 +1,5 @@
 require("config.lazy")
 
-require("tokyonight")
 require("dashboard")
 require("theme")
 
@@ -49,9 +48,7 @@ require("theme")
 --     },
 -- })
 
-require("notify").setup({
-  -- background_colour "#FFFFFF",
-})
+require("notify")
 
 require('toggleterm').setup{
 }
@@ -59,6 +56,8 @@ require('toggleterm').setup{
 require('leap').create_default_mappings()
 
 require('todo-comments').setup{}
+
+require("obsidian")
 
 -- Установка нумерации строк
 vim.cmd.set("number")
