@@ -7,13 +7,13 @@
   color: @text;
 }
 
-/* window#waybar { */
-/*    background-color: @base;  */
-/*   border-radius: 8px; */
-/*   transition-property: background-color; */
-/*   transition-duration: 0.5s; */
-/*   background-color: shade(@base, 0.9); */
-/* } */
+window#waybar {
+  background-color: @base; 
+  border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: shade(@base, 0.9);
+}
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */
@@ -101,18 +101,19 @@ button:hover {
   color: @text;
 }
 
-/* .modules-right, */
-/* .modules-left, */
-/* .modules-center { */
-/*   background-color: @base; */
-/*   border-radius: 15px; */
-/* } */
+.modules-right,
+.modules-left,
+.modules-center {
+  background-color: @base;
+  border-radius: 5px;
+  margin: 0 5px;
+}
 .modules-right {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .modules-left {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .modules-center {

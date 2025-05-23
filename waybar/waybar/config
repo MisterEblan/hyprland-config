@@ -1,9 +1,9 @@
 {
   "position": "top",
     "margin-top" : 0,
-    "margin-left": 20,
-    "margin-right": 20,
-    "height" : 34,
+    "margin-left": 12,
+    "margin-right": 12,
+    "height": 38,
     "modules-left": [
 		"clock",
 		"hyprland/language",
@@ -83,7 +83,7 @@
       "format": "{icon}  {volume}%",
       "format-bluetooth": "{volume}% {icon} {format_source}",
       "format-bluetooth-muted": " {icon} {format_source}",
-      "format-muted": " {format_source}",
+      "format-muted": " ",
       "format-icons": {
         "headphone": "",
         "hands-free": "",
